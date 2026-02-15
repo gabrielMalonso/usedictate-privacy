@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Dictate.</title>
+    <style>
+        :root {
+            --bg: #ffffff;
+            --text: #1a1a1a;
+            --muted: #6b7280;
+            --border: #e5e7eb;
+            --accent: #2563eb;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #0f0f0f;
+                --text: #e5e5e5;
+                --muted: #9ca3af;
+                --border: #2a2a2a;
+                --accent: #60a5fa;
+            }
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            padding: 2rem 1.5rem;
+            max-width: 720px;
+            margin: 0 auto;
+        }
+        h1 {
+            font-size: 1.75rem;
+            font-weight: 700;
+            margin-bottom: 0.25rem;
+            letter-spacing: -0.02em;
+        }
+        .effective-date {
+            color: var(--muted);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+        }
+        h2 {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-top: 2.25rem;
+            margin-bottom: 0.75rem;
+            letter-spacing: -0.01em;
+        }
+        p { margin-bottom: 1rem; }
+        ul, ol {
+            margin-bottom: 1rem;
+            padding-left: 1.5rem;
+        }
+        li { margin-bottom: 0.4rem; }
+        a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        a:hover { text-decoration: underline; }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 1.25rem;
+            font-size: 0.92rem;
+        }
+        th, td {
+            text-align: left;
+            padding: 0.6rem 0.75rem;
+            border-bottom: 1px solid var(--border);
+        }
+        th {
+            font-weight: 600;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.03em;
+            color: var(--muted);
+        }
+        .contact-box {
+            background: var(--border);
+            border-radius: 8px;
+            padding: 1.25rem;
+            margin-top: 1rem;
+        }
+        @media (prefers-color-scheme: dark) {
+            .contact-box { background: #1a1a1a; }
+        }
+        footer {
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid var(--border);
+            color: var(--muted);
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Privacy Policy</h1>
+<p class="effective-date">Effective date: February 15, 2026</p>
+
+<p>This Privacy Policy describes how <strong>Dictate.</strong> ("we", "our", or "the app"), developed by Gabriel Alonso, collects, uses, and protects your information. Dictate is a voice keyboard application for iOS that transcribes speech into text using third-party AI services.</p>
+
+<p>By using Dictate, you agree to the practices described in this policy. If you do not agree, please do not use the app.</p>
+
+<h2>1. Data We Collect</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>Data Type</th>
+            <th>What We Collect</th>
+            <th>How</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Audio recordings</td>
+            <td>Voice recordings captured through the microphone when you press the record button</td>
+            <td>Microphone access (user-initiated)</td>
+        </tr>
+        <tr>
+            <td>Account info</td>
+            <td>Name and email address</td>
+            <td>Authentication sign-in (WorkOS)</td>
+        </tr>
+        <tr>
+            <td>User ID</td>
+            <td>Unique identifier linked to your account</td>
+            <td>Automatically generated at sign-in</td>
+        </tr>
+        <tr>
+            <td>Transcription history</td>
+            <td>Text results of your voice transcriptions</td>
+            <td>Stored locally on your device</td>
+        </tr>
+        <tr>
+            <td>Usage data</td>
+            <td>Transcription count, word count, audio duration, timestamps</td>
+            <td>Collected automatically during use</td>
+        </tr>
+        <tr>
+            <td>Profile photo</td>
+            <td>Avatar image (if you choose to upload one)</td>
+            <td>User-initiated upload</td>
+        </tr>
+        <tr>
+            <td>Text substitution rules</td>
+            <td>Custom replacement rules you create</td>
+            <td>Stored locally on your device</td>
+        </tr>
+        <tr>
+            <td>App preferences</td>
+            <td>Language, formatting mode, accent color, session settings</td>
+            <td>Stored locally on your device</td>
+        </tr>
+    </tbody>
+</table>
+
+<h2>2. How We Use Your Data</h2>
+
+<ul>
+    <li><strong>Audio recordings:</strong> Sent to our backend server, which forwards them to third-party AI services for transcription. Audio files are deleted immediately after processing &mdash; they are not stored permanently on any server.</li>
+    <li><strong>Account information:</strong> Used to authenticate your identity and manage your account.</li>
+    <li><strong>Transcription history:</strong> Stored locally on your device to let you review, search, copy, and share past transcriptions. Optionally synced via iCloud if you enable this feature.</li>
+    <li><strong>Usage data:</strong> Used to track your usage statistics, enforce usage limits, and improve the service.</li>
+    <li><strong>Profile photo:</strong> Displayed within the app for personalization purposes only.</li>
+    <li><strong>Preferences and rules:</strong> Used to customize your transcription and formatting experience.</li>
+</ul>
+
+<h2>3. Third-Party AI Processing</h2>
+
+<p><strong>Dictate relies on third-party AI services to provide its core functionality.</strong> When you record audio, the following data flow occurs:</p>
+
+<ol>
+    <li>Audio is recorded locally on your device.</li>
+    <li>Audio is sent to our backend server (hosted on Convex).</li>
+    <li>Our server forwards the audio to <strong>OpenAI</strong> for speech-to-text transcription (using OpenAI Whisper or related models).</li>
+    <li>The transcribed text may be sent to an AI language model (such as <strong>OpenAI GPT</strong>, <strong>Google Gemini</strong>, <strong>Anthropic Claude</strong>, or <strong>Z.ai</strong>) for text formatting (punctuation, capitalization, paragraph structuring).</li>
+    <li>The processed text is returned to your device and inserted into the active text field.</li>
+    <li>Audio files are deleted immediately after transcription is complete.</li>
+</ol>
+
+<p>These third-party AI services process your audio and text data according to their own privacy policies:</p>
+<ul>
+    <li><a href="https://openai.com/policies/privacy-policy" target="_blank" rel="noopener">OpenAI Privacy Policy</a></li>
+    <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a></li>
+    <li><a href="https://www.anthropic.com/privacy" target="_blank" rel="noopener">Anthropic Privacy Policy</a></li>
+</ul>
+
+<p>We do not sell your data to any third party. Data is shared with these services solely to provide transcription and formatting functionality.</p>
+
+<h2>4. Keyboard Extension and Full Access</h2>
+
+<p>Dictate operates as a custom keyboard extension on iOS. The keyboard requests <strong>Full Access</strong> (also known as Open Access) for the following reason:</p>
+
+<ul>
+    <li><strong>Network access is required</strong> to send audio recordings to our server for transcription. Without Full Access, the keyboard cannot transmit audio data and cannot perform its core voice-to-text function.</li>
+</ul>
+
+<p>When Full Access is enabled:</p>
+<ul>
+    <li>Audio recordings are sent over the network to our backend for transcription.</li>
+    <li>We do <strong>not</strong> log, store, or monitor keystrokes.</li>
+    <li>We do <strong>not</strong> collect text typed with other keyboards.</li>
+    <li>We do <strong>not</strong> build user profiles based on keyboard usage.</li>
+    <li>Audio data is used exclusively for transcription and is deleted immediately after processing.</li>
+</ul>
+
+<h2>5. Authentication</h2>
+
+<p>Dictate uses <a href="https://workos.com/privacy" target="_blank" rel="noopener">WorkOS</a> as its authentication provider. When you sign in, WorkOS processes your email address and name to authenticate your identity. Authentication tokens are stored securely in your device's Keychain.</p>
+
+<h2>6. Data Storage and Retention</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>Data</th>
+            <th>Location</th>
+            <th>Retention</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Audio recordings</td>
+            <td>Device (temporary) &rarr; Server (in transit)</td>
+            <td>Deleted immediately after transcription</td>
+        </tr>
+        <tr>
+            <td>Transcription history</td>
+            <td>Device (SwiftData) + iCloud (optional)</td>
+            <td>Until you delete it</td>
+        </tr>
+        <tr>
+            <td>Usage statistics</td>
+            <td>Backend server (Convex)</td>
+            <td>Duration of your account</td>
+        </tr>
+        <tr>
+            <td>Account info</td>
+            <td>Backend server (Convex) + WorkOS</td>
+            <td>Until account deletion</td>
+        </tr>
+        <tr>
+            <td>Profile photo</td>
+            <td>Backend server</td>
+            <td>Until you remove it or delete your account</td>
+        </tr>
+        <tr>
+            <td>Preferences &amp; rules</td>
+            <td>Device only</td>
+            <td>Until you delete the app</td>
+        </tr>
+        <tr>
+            <td>Auth tokens</td>
+            <td>Device Keychain</td>
+            <td>Until sign-out or account deletion</td>
+        </tr>
+    </tbody>
+</table>
+
+<h2>7. Data Security</h2>
+
+<p>We take reasonable measures to protect your data:</p>
+<ul>
+    <li>All network communication uses HTTPS/TLS encryption.</li>
+    <li>Authentication tokens are stored in the iOS Keychain, the most secure storage available on the platform.</li>
+    <li>Audio files are deleted from your device immediately after being sent for processing.</li>
+    <li>Access to backend data is restricted to authenticated requests.</li>
+</ul>
+
+<h2>8. Your Rights</h2>
+
+<p>You have the right to:</p>
+<ul>
+    <li><strong>Access your data:</strong> View your transcription history and usage statistics within the app.</li>
+    <li><strong>Delete your data:</strong> Delete individual transcriptions or your entire history from the app. You can also export your data in JSON format.</li>
+    <li><strong>Delete your account:</strong> You can delete your account from within the app (Settings &gt; Account). This will permanently remove your account record, usage data, and profile photo from our servers.</li>
+    <li><strong>Revoke consent:</strong> You can stop using the keyboard at any time by removing it from your device's keyboard settings. You can revoke microphone access in iOS Settings.</li>
+    <li><strong>Data portability:</strong> Export your transcription history and replacement rules as a JSON file from within the app.</li>
+</ul>
+
+<h2>9. iCloud Sync</h2>
+
+<p>If you enable iCloud synchronization, your transcription history is synced across your devices using Apple's CloudKit infrastructure. This data is subject to <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple's Privacy Policy</a>. You can disable iCloud sync at any time in the app's settings.</p>
+
+<h2>10. Children's Privacy</h2>
+
+<p>Dictate is not intended for use by children under the age of 13. We do not knowingly collect personal information from children under 13. If we become aware that we have collected data from a child under 13, we will delete it promptly.</p>
+
+<h2>11. International Data Transfers</h2>
+
+<p>Your data may be processed in servers located in the United States. By using Dictate, you consent to the transfer and processing of your data outside of your country of residence. We ensure that third-party services we use provide adequate data protection.</p>
+
+<h2>12. Changes to This Policy</h2>
+
+<p>We may update this Privacy Policy from time to time. If we make significant changes, we will notify you through the app or by updating the effective date at the top of this page. We encourage you to review this policy periodically.</p>
+
+<h2>13. Contact</h2>
+
+<div class="contact-box">
+    <p>If you have questions about this Privacy Policy or wish to exercise your data rights, contact us at:</p>
+    <p><strong>Email:</strong> <a href="mailto:privacy@usedictate.app">privacy@usedictate.app</a></p>
+    <p><strong>Developer:</strong> Gabriel Alonso</p>
+</div>
+
+<footer>
+    <p>&copy; 2026 Dictate. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
